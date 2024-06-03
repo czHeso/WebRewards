@@ -1,0 +1,42 @@
+# Only MySQL
+database:
+  host: "host"
+  port: 3306
+  name: "name"
+  user: "user"
+  password: "password"
+
+
+# Edit the address according to where you have uploaded the files - see wiki
+reward:
+  url: "https://hesovodoupe.cz/test/"
+
+messages:
+  reward_received: 'You have received your rewards! Claim them here:'
+  not_enough_rewards: 'There are not enough rewards configured. Please contact the server administrator.'
+  already_claimed: 'You have already claimed your rewards in the last 2 hours.'
+  reset_success: 'Rewards timer for %player% has been reset.'
+  no_permission: 'You do not have permission to use this command.'
+
+rewards:
+  reward1:
+    img: "http://example.com/image1.png"
+    command: "give %player% diamond 1"
+    labelName: "Diamond Reward"
+  reward2:
+    img: "http://example.com/image2.png"
+    command: "give %player% gold_ingot 1"
+    labelName: "Gold Reward"
+  reward3:
+    img: "http://example.com/image3.png"
+    command: "give %player% iron_ingot 1"
+    labelName: "Iron Reward"
+  reward4:
+    img: "http://example.com/image4.png"
+    command: "give %player% emerald 1"
+    labelName: "Emerald Reward"
+  # More rewards can be added here...
+
+
+ # Rewards can be collected every 2 hours
+ # After setting this config, you still need to edit things in config.php

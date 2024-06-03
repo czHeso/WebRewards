@@ -1,0 +1,1 @@
+C:\Users\ondra\IdeaProjects\WebRewards\build\classes\kotlin\main\cz\hesovodoupe\webrewards\DatabaseManager.class;C:\Users\ondra\IdeaProjects\WebRewards\build\classes\kotlin\main\cz\hesovodoupe\webrewards\WebRewards$Reward.class;C:\Users\ondra\IdeaProjects\WebRewards\build\classes\kotlin\main\cz\hesovodoupe\webrewards\WebRewards.class

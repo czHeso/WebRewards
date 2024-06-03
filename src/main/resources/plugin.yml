@@ -1,0 +1,14 @@
+name: WebRewards
+version: '${version}'
+main: cz.hesovodoupe.webrewards.WebRewards
+api-version: '1.19'
+
+commands:
+  rewards:
+    description: Generates rewards for the player if not used in the last 2 hours
+    usage: /rewards
+    aliases: []
+  rewardsreset:
+    description: Resets the rewards timer for a player
+    usage: /rewards reset [Nick]
+    aliases: [rewardsreset]
